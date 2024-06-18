@@ -11,7 +11,7 @@ pub use units::DefaultUnits;
 #[cfg(feature = "si")]
 pub use units::SiUnits;
 
-pub use client::{ephemeris_orbital_elements, ephemeris_vector, major_bodies};
+pub use client::{ephemeris_orbital_elements, ephemeris_vector, ephemeris_vector_select_by_str, major_bodies};
 
 #[cfg(feature = "si")]
 pub use client::{ephemeris_orbital_elements_si, ephemeris_vector_si};
